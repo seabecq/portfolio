@@ -41,4 +41,16 @@ header nav ul li a {
     background-size: cover;
     padding: 70px;
     background-position: center;
+    position: relative;
+}
+
+.hero h2 {
+    position:absolute;
+    bottom: 5px;
+    right: 30px;
+}
+
+.flex {
+    display:flex;
+    justify-content: space-between;
 }
