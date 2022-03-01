@@ -14,7 +14,7 @@ header {
 
 header h1 {
     font-size: 40px;
-    color: #4D1930;
+    color: #4D1930;  
 }
 
 header a {
@@ -39,7 +39,7 @@ header nav ul li a {
 .hero {
     background-image: url("../images/placeholder.jpg");
     background-size: cover;
-    padding: 70px;
+    padding: 80px;
     background-position: center;
     position: relative;
 }
@@ -50,7 +50,21 @@ header nav ul li a {
     right: 30px;
 }
 
-.flex {
+.about {
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+.about > * {
+    flex:1;
+}
+
+.about h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+
