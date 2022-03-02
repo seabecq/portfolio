@@ -34,7 +34,7 @@ header nav ul li a {
 }
 
 .hero {
-    background-image: url("../images/placeholder.jpg");
+    background-image: url("../images/background.jpg");
     background-size: cover;
     padding: 80px;
     background-position: center;
@@ -51,7 +51,7 @@ header nav ul li a {
 
 #about-me {
     display:flex;
-    justify-content: space-eve;
+    justify-content: center;
     align-items: center;
     margin: 10px 20px;
 }
@@ -59,26 +59,29 @@ header nav ul li a {
 #about-me img {
     width: auto;
     height:300px;
+    padding: 5px;
 }
 
-#about-me h3 {
-    border-right: 5px solid gray;
-    font-size: 50px;
+.heading {
+    border-right: 5px solid grey;
+    font-size: 40px;
+    padding-right: 10px;
 }
 
-.flex {
+#contact {
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px
 }
 
-.flex p {
+#contact p {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.flex p a {
-    padding-left: 5px;
-    padding-right: 5px;
+#contact p a {
+    padding: 0 20px;
+    font-size: 30px;
 }
