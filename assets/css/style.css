@@ -77,14 +77,32 @@ header nav ul li a {
 
 #portfolio {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin: 25px 20px
+}
+
+.main-image {
+    background-image: url("../images/background.jpg");
+    width: 1000px;
+    padding: 200px;
+    border: 3px solid #CA8D9E;
+    position: relative;
+}
+
+.main-image p {
+    position:absolute;
+    left: 5px;
+    bottom: 30px;
+    background-color: #CA8D9E;
+    font-size: 30px;
+    padding: 5px;
 }
 
 #contact {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 10px 20px;
+    margin: 25px 20px;
     max-width: 1500px;
 }
 
