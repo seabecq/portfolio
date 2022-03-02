@@ -8,7 +8,8 @@ header {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 40px 30px;
+    align-items: baseline;
+    padding: 30px;
     background-color: #CA8D9E;
 }
 
@@ -36,7 +37,7 @@ header nav ul li a {
 .hero {
     background-image: url("../images/background.jpg");
     background-size: cover;
-    padding: 80px;
+    padding: 100px;
     background-position: center;
     position: relative;
 }
@@ -51,7 +52,7 @@ header nav ul li a {
 
 #about-me {
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 10px 20px;
 }
@@ -62,17 +63,29 @@ header nav ul li a {
     padding: 5px;
 }
 
+.about p {
+    max-width: 800px;
+    font-size: 18px;
+}
+
 .heading {
     border-right: 5px solid grey;
     font-size: 40px;
     padding-right: 10px;
+    margin-right: 10px;
+}
+
+#portfolio {
+    display: flex;
+    justify-content: center;
 }
 
 #contact {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 10px 20px
+    margin: 10px 20px;
+    max-width: 1500px;
 }
 
 #contact p {
