@@ -17,10 +17,6 @@ header h1 {
     color: #4D1930;  
 }
 
-header a {
-    text-decoration: underline;
-}
-
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -34,6 +30,7 @@ header nav ul li a {
     padding-right: 10px;
     font-size: 30px;
     color: #4D1930;
+    text-decoration: underline;
 }
 
 .hero {
@@ -48,23 +45,23 @@ header nav ul li a {
     position:absolute;
     bottom: 5px;
     right: 30px;
+    background-color: #CA8D9E;
+    padding: 5px;
 }
 
-.about {
+#about-me {
     display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.about > * {
-    flex:1;
-}
-
-.about h3 {
-    display: flex;
     justify-content: center;
-    font-size: 30px;
+    align-items: center;
 }
 
+#about-me img {
+    width: 300px;
+    height:auto;
+    margin-top: 10px;
+}
 
+#about-me div {
+    margin: 0 20px;
+}
 
