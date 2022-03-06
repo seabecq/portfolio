@@ -240,6 +240,10 @@ span {
         text-align: center;
     }
 
+    .hero h2 {
+        font-size: 25px;
+    }
+
     #portfolio {
         margin: 10px 0;
         flex-direction: column;
@@ -279,6 +283,11 @@ span {
 
     .heading {
         font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    #about-me {
+        flex-direction: column;
     }
 
     #portfolio {
@@ -287,13 +296,17 @@ span {
     }
 
     .main-image a img{
-        width: 500px;
-        height: 400px;
+        width: 475px;
+        height: auto;
     }
 
     .projects {
         flex-direction: column;
         justify-content: center;
+    }
+
+    .image a img {
+        width:450px;
     }
 
     #contact p {
