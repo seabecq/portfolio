@@ -13,6 +13,10 @@
     --bigtext: 50px;
 }
 
+body {
+    background-color: #f7d7e0;
+}
+
 /* header styles */
 
 header {
